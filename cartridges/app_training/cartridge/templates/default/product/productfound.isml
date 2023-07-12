@@ -1,0 +1,8 @@
+
+<isset name="productID" value="${pdict.productId}" scope="page"/>
+
+
+<isdecorate template="common/layout/page">
+
+<isinclude url="${URLUtils.url('Tile-Show', 'pid', pdict.productId, 'swatches', true, 'ratings', true)}" />
+</isdecorate>

@@ -1,0 +1,8 @@
+
+<isset name="sessionVar" value="${1}" scope = "session"/>
+<isset name="requestVar" value="Hello, RequestVar" scope = "request"/>
+<isset name="pageVar" value="${1}" scope = "page"/>
+
+${session.custom.sessionVar}
+${request.custom.requestVar}
+${pageVar +1}
