@@ -1,0 +1,20 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+         var assets = require('*/cartridge/scripts/assets.js');
+         assets.addJs('/js/productTile.js');
+         assets.addCss('/css/homePage.css');
+     </isscript>
+    <isinclude template="components/modules" sf-toolkit="off" />
+    <div class="container text-center">
+       <h1>Footer Your Benefits Section</h1>
+        <h3>Where does it come from?</h3>
+        </div>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+            <iscontentasset aid="full_width_content" />
+            <iscontentasset aid="full_width_content" />
+            <iscontentasset aid="full_width_content" />
+        </div>
+    </div>
+
+</isdecorate>
